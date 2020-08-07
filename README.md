@@ -1,13 +1,13 @@
 Based on https://github.com/brk3/gmusic-to-spotify
 
 Usage:
-````
+```
 gmusic-to-spotify.py --load file.csv | tee blah
 grep ^spotify:album blah > toload.txt
 gmusic-to-spotify.py --add toload.txt
 ```
 
-You need to create `localconfig.py`, look at spotipy docs for token details.
+You need to create a `localconfig.py`, look at [spotipy docs](https://spotipy.readthedocs.org) for token details.
 ```
 client_id = 'aaaaaaaaaaaabbbbbbbccccccccccccc'
 client_secret = '1111122222233333444fffaaaeeeeeee'
